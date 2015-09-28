@@ -1,0 +1,38 @@
+.espera{
+
+	background-image: url("img/espera.jpg");
+	height: 150px;
+	width: 150px;
+	border-style:dotted
+
+}
+
+
+.cruz{
+
+	background-image: url("img/x.jpg");
+	height: 150px;
+	width: 150px;
+	border-style:dotted
+
+}
+
+.circulo{
+
+	background-image: url("img/circulo.jpg");
+	height: 150px;
+	width: 150px;
+	border-style:dotted
+
+}
+
+.cuadrado{
+
+list-style:none;
+height:400px;
+width:450px;
+padding-left: 0px;
+margin-bottom: 0px;
+margin: auto;
+
+}
