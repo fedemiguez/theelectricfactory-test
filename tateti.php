@@ -1,5 +1,6 @@
 <?php
 session_start();
+
         $_1jugador_1="";
         $_1jugador_2="";
         $_1jugador_3="";
@@ -68,6 +69,20 @@ if(empty($_SESSION['jugada1_1']) && !empty($_GET['id'])){
   $_1jugador_5=1;
 
 }
+
+}else {
+
+$_SESSION['jugada1_1']="";
+$_SESSION['jugada1_2']="";
+$_SESSION['jugada1_3']="";
+$_SESSION['jugada1_4']="";
+$_SESSION['jugada1_5']="";
+
+$_SESSION['jugada2_1']="";
+$_SESSION['jugada2_2']="";
+$_SESSION['jugada2_3']="";
+$_SESSION['jugada2_4']="";
+
 
 }
 
@@ -343,7 +358,10 @@ $_SESSION['jugada2_4']="";
     })
     </script>
 
-    <?php }?>
+    <?php 
+
+
+    }?>
 
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/retina.js"></script>
